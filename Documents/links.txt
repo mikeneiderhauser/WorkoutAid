@@ -1,0 +1,16 @@
+Parts Links
+Adafruit Trinket Pro 3V - https://www.adafruit.com/products/2010
+	https://learn.adafruit.com/introducing-pro-trinket
+Adafruit OLED -https://www.adafruit.com/products/326
+	https://learn.adafruit.com/monochrome-oled-breakouts
+Adafruit Trinket Pro Battery Backpack - https://www.adafruit.com/products/2124
+Sparkfun Lipo Fuel Gauge - https://www.sparkfun.com/products/10617
+Bluetooth - https://www.sparkfun.com/products/11601
+Buttons - https://www.adafruit.com/products/1489
+
+Arduino Library Links
+SSD1306ASCII - https://code.google.com/p/beta-lib/downloads/detail?name=SSD1306ASCII20120229.zip&can=2&q=
+MAX17043 - https://github.com/lucadentella/ArduinoLib_MAX17043
+
+Android Studio - http://developer.android.com/sdk/index.html
+Arduino - http://arduino.cc/en/Main/Software
