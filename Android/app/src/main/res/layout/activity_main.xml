@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mute"
+        android:id="@+id/btnMute"
+        android:onClick="buttonHandler"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Un-Mute"
+        android:id="@+id/btnUnmute"
+        android:layout_alignBottom="@+id/btnMute"
+        android:layout_toRightOf="@+id/btnMute"
+        android:layout_toEndOf="@+id/btnMute"
+        android:onClick="buttonHandler" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:id="@+id/btnPlay"
+        android:layout_below="@+id/btnMute"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="buttonHandler" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:id="@+id/btnPause"
+        android:layout_alignBottom="@+id/btnPlay"
+        android:layout_toRightOf="@+id/btnMute"
+        android:layout_toEndOf="@+id/btnMute"
+        android:onClick="buttonHandler" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:id="@+id/btnStop"
+        android:layout_alignBottom="@+id/btnPause"
+        android:layout_toRightOf="@+id/btnPause"
+        android:layout_toEndOf="@+id/btnPause"
+        android:onClick="buttonHandler" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:id="@+id/btnTime"
+        android:layout_below="@+id/btnPlay"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="buttonHandler" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery"
+        android:id="@+id/btnBattery"
+        android:onClick="buttonHandler"
+        android:layout_below="@+id/btnStop"
+        android:layout_toLeftOf="@+id/btnLine4"
+        android:layout_toStartOf="@+id/btnLine4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Line 1"
+        android:id="@+id/btnLine1"
+        android:onClick="buttonHandler"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Line 4"
+        android:id="@+id/btnLine4"
+        android:onClick="buttonHandler"
+        android:layout_alignTop="@+id/btnLine3"
+        android:layout_toRightOf="@+id/btnLine3"
+        android:layout_toEndOf="@+id/btnLine3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Line 2"
+        android:id="@+id/btnLine2"
+        android:onClick="buttonHandler"
+        android:layout_alignTop="@+id/btnLine1"
+        android:layout_toRightOf="@+id/btnLine1"
+        android:layout_toEndOf="@+id/btnLine1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Line 3"
+        android:id="@+id/btnLine3"
+        android:onClick="buttonHandler"
+        android:layout_above="@+id/btnLine7"
+        android:layout_toRightOf="@+id/btnLine2"
+        android:layout_toEndOf="@+id/btnLine2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Line 5"
+        android:id="@+id/btnLine5"
+        android:onClick="buttonHandler"
+        android:layout_below="@+id/btnLine2"
+        android:layout_toLeftOf="@+id/btnLine2"
+        android:layout_toStartOf="@+id/btnLine2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Line 6"
+        android:id="@+id/btnLine6"
+        android:onClick="buttonHandler"
+        android:layout_below="@+id/btnLine2"
+        android:layout_toLeftOf="@+id/btnLine3"
+        android:layout_toStartOf="@+id/btnLine3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Line 7"
+        android:id="@+id/btnLine7"
+        android:layout_alignBottom="@+id/btnLine6"
+        android:layout_alignLeft="@+id/btnLine3"
+        android:layout_alignStart="@+id/btnLine3"
+        android:onClick="buttonHandler" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State"
+        android:id="@+id/btnState"
+        android:layout_alignBottom="@+id/btnTime"
+        android:layout_toRightOf="@+id/btnTime"
+        android:layout_toEndOf="@+id/btnTime"
+        android:onClick="buttonHandler" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTN 0"
+        android:id="@+id/btn0"
+        android:onClick="buttonHandler"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTN1"
+        android:id="@+id/btn1"
+        android:layout_alignBottom="@+id/btn0"
+        android:layout_alignLeft="@+id/btnLine6"
+        android:layout_alignStart="@+id/btnLine6"
+        android:onClick="buttonHandler" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTN 2"
+        android:id="@+id/btn2"
+        android:layout_alignTop="@+id/btn1"
+        android:layout_toRightOf="@+id/btn1"
+        android:layout_toEndOf="@+id/btn1"
+        android:onClick="buttonHandler" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTN 3"
+        android:id="@+id/btn3"
+        android:layout_below="@+id/btn0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="buttonHandler" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTN 4"
+        android:id="@+id/btn4"
+        android:onClick="buttonHandler"
+        android:layout_below="@+id/btn1"
+        android:layout_alignLeft="@+id/btn1"
+        android:layout_alignStart="@+id/btn1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTN 5"
+        android:id="@+id/btn5"
+        android:onClick="buttonHandler"
+        android:layout_below="@+id/btn2"
+        android:layout_toLeftOf="@+id/btnLine4"
+        android:layout_toStartOf="@+id/btnLine4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Button HW Emulation"
+        android:id="@+id/textView"
+        android:layout_below="@+id/btnLine5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Test Line Override"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/btnTime"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Fake HW Emu (OLED Display Update)"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
